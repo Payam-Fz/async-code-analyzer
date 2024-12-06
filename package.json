@@ -1,0 +1,38 @@
+{
+  "name": "async-analyzer",
+  "description": "Asynchronous JavaScript Analysis",
+  "type": "module",
+  "version": "1.0.0",
+  "author": "Elias Chen, Sean Ford, Payam Forouzandeh, Angus Ho, Sarah Li",
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "https://github.students.cs.ubc.ca/CPSC410-2023W-T2/Group7Project2"
+  },
+  "engines": {
+    "node": ">=20"
+  },
+  "dependencies": {
+    "@babel/core": "^7.24.3",
+    "@babel/generator": "^7.24.1",
+    "@babel/helper-environment-visitor": "^7.22.20",
+    "@babel/parser": "^7.24.1",
+    "@babel/traverse": "^7.24.1",
+    "yargs": "^17.7.2"
+  },
+  "devDependencies": {
+    "@babel/preset-env": "^7.23.9",
+    "@babel/preset-typescript": "^7.23.3",
+    "@babel/types": "^7.24.0",
+    "@types/jest": "^29.5.12",
+    "@types/lodash": "^4.14.202",
+    "jest": "^29.7.0",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.3.3"
+  },
+  "main": "index.ts",
+  "scripts": {
+    "test": "jest",
+    "start": "node --loader ts-node/esm ./src/index.ts"
+  }
+}
