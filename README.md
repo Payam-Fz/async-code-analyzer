@@ -1,5 +1,5 @@
-# JavaScript Async Code Program Analyser
-This is a command line tool that statically analyzes your asynchronous Javascript code which helps you find issues that are hurting your project’s performance and offers code suggestions on how you can fix them. We chose to do static analysis as we wanted something that could analyze code without needing it to run, that way if your code does take a very long time, you won't have to wait for the code suggestions our program suggests.
+# JavaScript Async Code Program Analyzer
+This is a command line tool that statically analyzes your asynchronous JavaScript code which helps you find issues that are hurting your project’s performance and offers code suggestions on how you can fix them. We chose to do static analysis as we wanted something that could analyze code without needing it to run, that way if your code does take a very long time, you won't have to wait for the code suggestions our program suggests.
 
 
 ### Limitations:
